@@ -40,3 +40,11 @@ Function scope: variables are exclusively accessible within the function they ar
 • Example of reassignment error (TypeError: Assignment to constant variable)
 const name = "Duncan"
 name = "Duncan Reyneke"
+
+---
+
+OCTOBER 14 2025
+
+Practiced declaring variables;
+saw how const protects values from reassignment;
+compared normal vs arrow functions
