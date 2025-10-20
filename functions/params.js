@@ -13,3 +13,13 @@ function sum(a, b, c = 0) {
 
 console.log(sum(5, 10, 15)); // 30
 console.log(sum(5, 10)); // 15
+
+/*Using params to return largest number.*/
+function max(firstNum, secondNum) {
+  if (firstNum > secondNum) {
+    return firstNum;
+  } else {
+    return secondNum;
+  }
+}
+console.log(max(10, 20)); // 20
